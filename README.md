@@ -1,6 +1,8 @@
 
+# design:
+<img width="1159" height="537" alt="image" src="https://github.com/user-attachments/assets/ec4c65cf-59b0-476c-b63d-24b52217a0f7" />
 
-````md
+
 # Auto Deploy Website via Git Push
 
 Dette prosjektet lar deg enkelt publisere nettsider ved å pushe til en Git-repo på serveren. Når du pusher, sjekkes koden automatisk ut til webroot-mappen din og publiseres uten behov for FTP.
@@ -17,7 +19,7 @@ Logg inn på serveren din og kjør:
 mkdir -p ~/git/mywebsite.git
 cd ~/git/mywebsite.git
 git init --bare
-````
+```
 
 Dette oppretter et “tomt” repo som fungerer som endepunkt for push.
 
